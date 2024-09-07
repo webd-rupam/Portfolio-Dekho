@@ -101,3 +101,10 @@ const Page = () => {
 }
 
 export default Page;
+
+
+export async function generateMetadata({ params }) {
+  return {
+    title: "PassX - My project 3",
+  }
+}

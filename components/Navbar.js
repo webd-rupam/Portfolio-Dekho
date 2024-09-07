@@ -48,9 +48,9 @@ const Navbar = () => {
       </nav>
 
       {isDropdown && (
-        <div className={`dropdown w-full fixed top-[70px] left-0 z-40 font-bold text-black bg-white border border-gray-200 rounded-lg shadow-lg transform transition-transform duration-300 ease-in-out ${isDropdown ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+        <div className={`dropdown w-full fixed top-[70px] left-0 z-40 font-bold text-black bg-white border border-gray-200 shadow-lg transform transition-transform duration-300 ease-in-out ${isDropdown ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
           <ul className='flex flex-col items-center'>
-            <Link onClick={closeDropdown} className='flex items-center w-full border-b border-gray-200 hover:bg-gray-100 transition-colors duration-300 cursor-pointer p-4' href={"/"} passHref>
+            <Link onClick={closeDropdown} className='flex items-center w-full border-b border-gray-200 hover:bg-gray-100 transition-all cursor-pointer p-4 transform duration-300 ease-in-out' href={"/"} passHref>
               <div className='flex items-center justify-center w-full'>
                 <img className='w-7 h-7 mr-2' src="home.gif" alt="Home" />
                 <span>HOME</span>

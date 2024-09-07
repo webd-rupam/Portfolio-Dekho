@@ -7,7 +7,7 @@ const About = () => {
       <div id='about' className='bg-gradient-to-br from-gray-50 via-gray-100 to-gray-200 min-h-screen w-full flex flex-col justify-center gap-16 md:gap-32 pb-16'>
         
         {/* Section Title */}
-        <div className='flex flex-col items-center gap-5 text-center px-4 mt-20'>
+        <div className='flex flex-col items-center gap-5 text-center px-4 md:mt-20 mt-24'>
           <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900'>ABOUT ME</h2>
           <span className='bg-[#7843E9] w-8 h-1.5 rounded-full'></span>
           <p className='text-lg md:text-xl lg:text-xl text-gray-700 md:px-10 md:w-[65vw]'>

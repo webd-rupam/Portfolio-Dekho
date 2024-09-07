@@ -90,3 +90,10 @@ const Page = () => {
 }
 
 export default Page;
+
+
+export async function generateMetadata({ params }) {
+  return {
+    title: "Webd's Portfolio - My project 2",
+  }
+}

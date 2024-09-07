@@ -90,3 +90,9 @@ const Page = () => {
 }
 
 export default Page;
+
+export async function generateMetadata({ params }) {
+  return {
+    title: "Cheers With Tea - My Project 1",
+  }
+}

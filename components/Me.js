@@ -40,11 +40,11 @@ const Me = () => {
       {/* Text Content */}
       <div className="text-center max-w-7xl mx-auto md:px-8 lg:px-40 px-4 flex flex-col justify-center h-full relative">
         <div className="text-2xl md:text-4xl lg:text-5xl font-extrabold text-white leading-tight typewriter">
-          HEY, I&apos;M RUPAM MAJEE
+          HI, I&apos;M RUPAM MAJEE
           <span className="typewriter-cursor"></span>
         </div>
 
-        <p className='mt-6 md:mt-8 text-lg md:text-xl lg:text-xl text-gray-200 md:px-10'>
+        <p className='mt-10 text-lg md:text-xl lg:text-xl text-gray-200 md:px-10'>
           A result-oriented web developer specializing in building and managing impactful websites and applications.
         </p>
 

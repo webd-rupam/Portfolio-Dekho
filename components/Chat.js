@@ -6,7 +6,7 @@ const Chat = () => {
   return (
     <Link href="/#contact">
       <div 
-        className='fixed bottom-12 right-6 flex items-center gap-3 text-black z-50 cursor-pointer'
+        className='fixed bottom-16 right-6 flex items-center gap-3 text-black z-50 cursor-pointer'
         aria-label="Chat with us"
       >
         <span 

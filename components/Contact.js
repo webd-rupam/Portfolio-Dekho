@@ -70,15 +70,15 @@ const Contact = () => {
       />
 
       <div id='contact' className='relative min-h-screen w-full overflow-x-hidden flex flex-col justify-center gap-8 md:gap-16 lg:gap-32 pb-10 md:pb-20 bg-gradient-to-br from-teal-100 via-teal-50 to-teal-200'>
-        <div className='relative z-[5] flex flex-col items-center gap-5 text-center px-4 mt-20'>
-          <h2 className='text-xl mt-5 md:text-2xl lg:text-4xl font-bold text-gray-800'>CONTACT</h2>
+        <div className='relative z-[5] flex flex-col items-center gap-5 text-center px-4 md:mt-20 -mt-7'>
+          <h2 className='text-2xl md:mt-5 mt-16 md:text-3xl lg:text-4xl font-bold text-gray-800'>CONTACT</h2>
           <span className='bg-[#7843E9] w-8 h-1.5 rounded-full'></span>
           <p className='text-lg md:text-xl lg:text-xl text-gray-700 md:px-10 md:w-[65vw]'>
             Feel free to contact me by submitting the form below, and I will get back to you as soon as possible.
           </p>
         </div>
 
-        <div className="relative z-[5] flex justify-center items-center px-4 md:px-0">
+        <div className="relative z-[5] flex justify-center items-center px-4 md:px-0 md:mt-0 mt-10">
           <form onSubmit={handleSubmit} className="w-full max-w-lg bg-white shadow-lg rounded-lg p-6 sm:p-8">
             <div className="mb-4 sm:mb-6">
               <label htmlFor="name" className="block text-gray-700 font-bold mb-2">Name</label>

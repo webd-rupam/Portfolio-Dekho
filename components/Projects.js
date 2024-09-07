@@ -5,8 +5,8 @@ const Projects = () => {
   return (
     <>
       <div id='projects' className='bg-[#fefdfd] min-h-screen w-full overflow-x-hidden flex flex-col justify-center gap-8 md:gap-16 lg:gap-32 pb-12'>
-        <div className='flex flex-col items-center gap-5 text-center px-4 mt-20'>
-          <h2 className='text-xl mt-5 md:text-2xl lg:text-4xl font-bold text-black'>PROJECTS</h2>
+        <div className='flex flex-col items-center gap-5 text-center px-4 md:mt-20 mt-[75px]'>
+          <h2 className='text-2xl mt-5 md:text-3xl lg:text-4xl font-bold text-black'>PROJECTS</h2>
           <span className='bg-[#7843E9] w-8 h-1.5 rounded-full'></span>
           <p className='text-lg md:text-xl lg:text-xl text-[#333] md:px-10 md:w-[65vw]'>
             Here you will find some of the projects that I created along with more information and their links.
@@ -14,7 +14,7 @@ const Projects = () => {
         </div>
 
         {/* Project Section 1 */}
-        <div className='flex flex-col lg:flex-row w-full md:gap-16 mx-auto px-4 md:px-6 lg:px-20 mt-4'>
+        <div className='flex flex-col lg:flex-row w-full md:gap-16 mx-auto px-4 md:px-6 lg:px-20 md:mt-4 mt-10'>
           <div className='flex flex-col lg:flex-row items-center gap-8 md:gap-12 w-full'>
             <img src="cheerswithtea.jpg" alt="Project 1 description" className='w-full lg:w-[55%] h-auto object-cover max-w-2xl lg:ml-16' />
             <div className='flex flex-col justify-center w-full lg:w-1/2 text-center lg:text-left lg:ml-10'>

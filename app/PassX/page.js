@@ -57,11 +57,11 @@ const Page = () => {
               </p>
               
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
-              The app leverages state management to handle user inputs and manage a dynamic list of saved passwords, which are securely stored in the browser's local storage. This ensures that users' data is preserved across sessions, providing a seamless experience even after a page refresh. This feature is particularly valuable as it offers convenience without compromising on security, allowing users to maintain their password list without worrying about losing data when closing the browser.
+              The app leverages state management to handle user inputs and manage a dynamic list of saved passwords, which are securely stored in the browser&apos;s local storage. This ensures that users' data is preserved across sessions, providing a seamless experience even after a page refresh. This feature is particularly valuable as it offers convenience without compromising on security, allowing users to maintain their password list without worrying about losing data when closing the browser.
               </p>
               
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
-              Visually, PassX is designed with a clean, modern interface that utilizes a responsive layout and attractive styling. The application's design includes elements like a gradient background, rounded input fields, and a consistent color scheme, all of which enhance the overall user experience. This combination of functionality and design highlights the developer's ability to create web applications that are both secure and visually appealing.
+              Visually, PassX is designed with a clean, modern interface that utilizes a responsive layout and attractive styling. The application&apos;s design includes elements like a gradient background, rounded input fields, and a consistent color scheme, all of which enhance the overall user experience. This combination of functionality and design highlights the developer&apos;s ability to create web applications that are both secure and visually appealing.
 
               </p>
 

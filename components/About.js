@@ -22,7 +22,7 @@ const About = () => {
           <div className='w-full md:w-1/2 flex flex-col gap-8 md:gap-4'>
             <h3 className='text-lg md:text-xl lg:text-2xl font-bold text-gray-900 md:mb-7'>Get to know me!</h3>
             <p className='text-base lg:text-lg text-[#666]'>
-              I'm a <span className='font-bold text-indigo-600'>Frontend-focused Full Stack Web Developer</span> building and managing the front-end of websites and web applications that contribute to the overall product's success. Check out some of my work in the <span className='font-bold text-indigo-600'>Projects</span> section.
+              I'm a <span className='font-bold text-indigo-600'>Frontend-focused Full Stack Web Developer</span> building and managing the front-end of websites and web applications that contribute to the overall product&apos;s success. Check out some of my work in the <span className='font-bold text-indigo-600'>Projects</span> section.
             </p>
             <p className='text-base lg:text-lg text-[#666]'>
               I also enjoy sharing content related to what I've learned over the years in <span className='font-bold text-indigo-600'>Web Development</span> to help the Dev Community. Feel free to connect or follow me on <a href="https://www.linkedin.com/in/rupam-majee-0811a6288/" target="_blank" rel="noopener noreferrer" className='font-bold underline text-indigo-600'>LinkedIn</a> and <a href="https://x.com/webd_rupam" target="_blank" rel="noopener noreferrer" className='font-bold underline text-indigo-600'>X</a> where I post useful content related to Web Development and Programming.

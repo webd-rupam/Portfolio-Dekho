@@ -11,11 +11,11 @@ const Page = () => {
         {/* Text Content */}
         <div className="text-center max-w-7xl mx-auto px-2 flex flex-col justify-center h-full relative">
           <div className="text-2xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-white whitespace-normal">
-           WEBD's PORTFOLIO
+           WEBD&apos;s PORTFOLIO
           </div>
 
           <p className='mt-8 md:mt-12 text-lg lg:text-xl text-gray-200 md:px-10 max-w-5xl mx-auto'>
-            This page contains the case study of 'Webd's Portfolio' Open-Source Project which includes the Project Overview, Tools Used, and Live Links to the official product.
+            This page contains the case study of 'Webd&apos;s Portfolio' Open-Source Project which includes the Project Overview, Tools Used, and Live Links to the official product.
           </p>
 
           <Link href="https://github.com/webd-rupam/Webd-s-Portfolio" target="_blank">
@@ -44,11 +44,11 @@ const Page = () => {
             <div className='flex flex-col justify-center w-full lg:w-1/2 text-left lg:ml-10'>
               <h4 className='text-xl md:text-2xl font-bold mt-6 md:mt-0'>Project Overview</h4>
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
-              The portfolio website is designed to effectively showcase a developer's professional work in a modern and visually appealing manner. It is built using Next.js and Tailwind CSS, showcasing a modern, dynamic, and visually appealing design. Next.js enhances the website's performance by offering features like server-side rendering and static site generation, which contribute to faster load times and improved SEO. Tailwind CSS is utilized for styling, allowing for a clean, responsive layout that adapts seamlessly to various devices, ensuring an optimal user experience across smartphones, tablets, and desktops.
+              The portfolio website is designed to effectively showcase a developer&apos;s professional work in a modern and visually appealing manner. It is built using Next.js and Tailwind CSS, showcasing a modern, dynamic, and visually appealing design. Next.js enhances the website&apos;s performance by offering features like server-side rendering and static site generation, which contribute to faster load times and improved SEO. Tailwind CSS is utilized for styling, allowing for a clean, responsive layout that adapts seamlessly to various devices, ensuring an optimal user experience across smartphones, tablets, and desktops.
               </p>
               
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
-              One of the standout features of this portfolio is its responsive design. Thanks to Tailwind CSS, the website maintains its visual integrity and functionality on all screen sizes. The utility-first approach of Tailwind CSS simplifies the process of creating layouts that adapt to different devices, making it easy to ensure that the website looks and works perfectly whether it's viewed on a smartphone, tablet, or desktop.
+              One of the standout features of this portfolio is its responsive design. Thanks to Tailwind CSS, the website maintains its visual integrity and functionality on all screen sizes. The utility-first approach of Tailwind CSS simplifies the process of creating layouts that adapt to different devices, making it easy to ensure that the website looks and works perfectly whether it&apos;s viewed on a smartphone, tablet, or desktop.
               </p>
               
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>

@@ -39,9 +39,9 @@ const Projects = () => {
           <div className='flex flex-col lg:flex-row items-center gap-8 md:gap-12 w-full'>
             <img src="portfolio.jpg" alt="Project 3 description" className='w-full lg:w-[55%] h-auto object-cover max-w-2xl lg:ml-16' />
             <div className='flex flex-col justify-center w-full lg:w-1/2 text-center lg:text-left lg:ml-10'>
-              <h4 className='text-xl md:text-2xl font-bold'>Webd's Portfolio</h4>
+              <h4 className='text-xl md:text-2xl font-bold'>Webd&apos;s Portfolio</h4>
               <p className='text-base md:text-lg mt-5 text-[#666] lg:mr-10'>
-              Webd's Portfolio showcases a developer's work with a modern, engaging design. It highlights projects with optimized performance and a responsive layout, featuring interactive project previews. This platform is perfect for presenting professional achievements effectively.
+              Webd&apos;s Portfolio showcases a developer&apos;s work with a modern, engaging design. It highlights projects with optimized performance and a responsive layout, featuring interactive project previews. This platform is perfect for presenting professional achievements effectively.
               </p>
               <Link href="/Portfolio" target="_blank">
                 <button

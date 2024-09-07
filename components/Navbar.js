@@ -31,7 +31,7 @@ const Navbar = () => {
         <Link href={"/"}>
           <div className="logoName flex items-center gap-3">
             <img className='lg:w-12 w-10 rounded-full' src="dp.jpg" alt="Profile Picture" />
-            <p className='lg:text-lg text-base font-bold hover:text-[#558dc9] transition-all'>Rupam Majee</p>
+            <p className='lg:text-lg text-sm font-bold hover:text-[#558dc9] transition-all'>Rupam Majee</p>
           </div>
         </Link>
 

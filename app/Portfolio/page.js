@@ -10,11 +10,11 @@ const Page = () => {
         {/* Text Content */}
         <div className="text-center max-w-7xl mx-auto px-2 flex flex-col justify-center h-full relative">
           <div className="text-2xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-white whitespace-normal">
-            WEBD&apos;s PORTFOLIO
+            PORTFOLIO DEKHO
           </div>
 
           <p className='mt-8 md:mt-12 text-lg lg:text-xl text-gray-200 md:px-10 max-w-5xl mx-auto'>
-            This page contains the case study of &apos;Webd&apos;s Portfolio&apos; Open-Source Project which includes the Project Overview, Tools Used, and Live Links to the official product.
+            This page contains the case study of &apos;Portfolio Dekho&apos; Open-Source Project which includes the Project Overview, Tools Used, and Live Links to the official product.
           </p>
 
           <Link href="https://github.com/webd-rupam/Webd-s-Portfolio" target="_blank">
@@ -94,6 +94,6 @@ export default Page;
 
 export async function generateMetadata({ params }) {
   return {
-    title: "Webd's Portfolio - My project 2",
+    title: "Portfolio Dekho - My project 2",
   }
 }

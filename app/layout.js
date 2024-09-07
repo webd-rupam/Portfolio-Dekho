@@ -5,7 +5,7 @@ import Chat from "@/components/Chat";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Webd's Portfolio - My personal portfolio",
+  title: "Portfolio Dekho - My personal portfolio",
   description: "This is a portfolio website of a Web Developer where he can showcase his skills.",
 };
 

@@ -15,7 +15,7 @@ const Page = () => {
           </div>
 
           <p className='mt-8 md:mt-12 text-lg lg:text-xl text-gray-200 md:px-10 max-w-5xl mx-auto'>
-            This page contains the case study of 'Cheers With Tea' Open-Source Project which includes the Project Overview, Tools Used, and Live Links to the official product.
+            This page contains the case study of &apos;Cheers With Tea&apos; Open-Source Project which includes the Project Overview, Tools Used, and Live Links to the official product.
           </p>
 
           <Link href="https://github.com/webd-rupam/Cheers-With-Tea-Crowdfunding" target="_blank">
@@ -44,16 +44,16 @@ const Page = () => {
             <div className='flex flex-col justify-center w-full lg:w-1/2 text-left lg:ml-10'>
               <h4 className='text-xl md:text-2xl font-bold mt-6 md:mt-0'>Project Overview</h4>
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
-              Cheers with Tea, a crowdfunding platform that aims to bring dreams to life! Our platform offers a space for creators to share their projects and connect with supporters.
-                            </p>
+                Cheers with Tea, a crowdfunding platform that aims to bring dreams to life! Our platform offers a space for creators to share their projects and connect with supporters.
+              </p>
               
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
-              Our platform offers a comprehensive suite of features designed to enhance user experience and security. With advanced user authentication methods, you can securely log in and access your account with confidence. Each user benefits from a customizable profile, allowing them to showcase their projects and engage with the community. Integrated payment solution support, ensuring secure and smooth transactions for contributions.
+                Our platform offers a comprehensive suite of features designed to enhance user experience and security. With advanced user authentication methods, you can securely log in and access your account with confidence. Each user benefits from a customizable profile, allowing them to showcase their projects and engage with the community. Integrated payment solution support, ensuring secure and smooth transactions for contributions.
               </p>
 
-              <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>Moreover, our responsive design guarantees an optimized experience across all devices, whether you're using a desktop, tablet, or smartphone.</p>
+              <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>Moreover, our responsive design guarantees an optimized experience across all devices, whether you&apos;re using a desktop, tablet, or smartphone.</p>
               
-             <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto relative md:right-[142px]'>
+              <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto relative md:right-[142px]'>
                 Please feel free to checkout the project from the Project Link.
               </p>
               

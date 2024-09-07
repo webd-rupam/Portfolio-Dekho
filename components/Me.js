@@ -40,7 +40,7 @@ const Me = () => {
       {/* Text Content */}
       <div className="text-center max-w-7xl mx-auto md:px-8 lg:px-40 px-4 flex flex-col justify-center h-full relative">
         <div className="text-2xl md:text-4xl lg:text-5xl font-extrabold text-white leading-tight typewriter">
-          HEY, I'M RUPAM MAJEE
+          HEY, I&apos;M RUPAM MAJEE
           <span className="typewriter-cursor"></span>
         </div>
 

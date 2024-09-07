@@ -15,7 +15,7 @@ const Page = () => {
           </div>
 
           <p className='mt-8 md:mt-12 text-lg lg:text-xl text-[#a6a6a6] md:px-10 max-w-5xl mx-auto'>
-            This page contains the case study of 'PassX' Open-Source Project which includes the Project Overview, Tools Used, and Live Links to the official product.
+            This page contains the case study of &apos;PassX&apos; Open-Source Project which includes the Project Overview, Tools Used, and Live Links to the official product.
           </p>
 
           <Link href="https://github.com/webd-rupam/PassX-PasswordManager" target="_blank">
@@ -53,20 +53,19 @@ const Page = () => {
             <div className='flex flex-col justify-center w-full lg:w-1/2 text-left lg:ml-10'>
               <h4 className='text-xl md:text-2xl font-bold mt-6 md:mt-0'>Project Overview</h4>
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
-              PassX is a sleek and functional password management application that allows users to store, manage, and retrieve their passwords securely. The application provides essential features like password visibility toggling, editing, and deleting saved passwords, ensuring users have full control over their stored information. Additionally, users can easily copy their passwords to the clipboard with a single click, streamlining the process of accessing their credentials.
+                PassX is a sleek and functional password management application that allows users to store, manage, and retrieve their passwords securely. The application provides essential features like password visibility toggling, editing, and deleting saved passwords, ensuring users have full control over their stored information. Additionally, users can easily copy their passwords to the clipboard with a single click, streamlining the process of accessing their credentials.
               </p>
               
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
-              The app leverages state management to handle user inputs and manage a dynamic list of saved passwords, which are securely stored in the browser&apos;s local storage. This ensures that users' data is preserved across sessions, providing a seamless experience even after a page refresh. This feature is particularly valuable as it offers convenience without compromising on security, allowing users to maintain their password list without worrying about losing data when closing the browser.
+                The app leverages state management to handle user inputs and manage a dynamic list of saved passwords, which are securely stored in the browser&apos;s local storage. This ensures that users&apos; data is preserved across sessions, providing a seamless experience even after a page refresh. This feature is particularly valuable as it offers convenience without compromising on security, allowing users to maintain their password list without worrying about losing data when closing the browser.
               </p>
               
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
-              Visually, PassX is designed with a clean, modern interface that utilizes a responsive layout and attractive styling. The application&apos;s design includes elements like a gradient background, rounded input fields, and a consistent color scheme, all of which enhance the overall user experience. This combination of functionality and design highlights the developer&apos;s ability to create web applications that are both secure and visually appealing.
-
+                Visually, PassX is designed with a clean, modern interface that utilizes a responsive layout and attractive styling. The application&apos;s design includes elements like a gradient background, rounded input fields, and a consistent color scheme, all of which enhance the overall user experience. This combination of functionality and design highlights the developer&apos;s ability to create web applications that are both secure and visually appealing.
               </p>
 
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
-              Please feel free to checkout the project from the Project Link, or use it following the site link.
+                Please feel free to checkout the project from the Project Link, or use it following the site link.
               </p>
               
             </div>

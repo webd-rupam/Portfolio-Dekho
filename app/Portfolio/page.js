@@ -11,7 +11,7 @@ const Page = () => {
         {/* Text Content */}
         <div className="text-center max-w-7xl mx-auto px-2 flex flex-col justify-center h-full relative">
           <div className="text-2xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-white whitespace-normal">
-            PASS-X
+           WEBD's PORTFOLIO
           </div>
 
           <p className='mt-8 md:mt-12 text-lg lg:text-xl text-gray-200 md:px-10 max-w-5xl mx-auto'>

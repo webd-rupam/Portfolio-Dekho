@@ -17,7 +17,7 @@ const Page = () => {
             This page contains the case study of &apos;Portfolio Dekho&apos; Open-Source Project which includes the Project Overview, Tools Used, and Live Links to the official product.
           </p>
 
-          <Link href="https://github.com/webd-rupam/Webd-s-Portfolio" target="_blank">
+          <Link href="https://github.com/webd-rupam/Portfolio-Dekho" target="_blank">
             <button
               type="button"
               className="relative transition-transform duration-500 ease-in-out transform hover:translate-y-1 mt-14 text-white bg-gradient-to-r from-[#b33951] via-[#e63946] to-[#ff4b5c] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-[#e63946] dark:focus:ring-[#ff4b5c] font-bold rounded-md text-base md:text-xl px-12 py-3 text-center">

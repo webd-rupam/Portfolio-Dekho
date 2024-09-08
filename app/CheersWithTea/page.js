@@ -53,7 +53,7 @@ const Page = () => {
 
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>Moreover, our responsive design guarantees an optimized experience across all devices, whether you&apos;re using a desktop, tablet, or smartphone.</p>
               
-              <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto relative md:right-[142px]'>
+              <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto relative lg:right-[142px]'>
                 Please feel free to checkout the project from the Project Link.
               </p>
               
@@ -65,7 +65,7 @@ const Page = () => {
         <div className='flex flex-col w-full md:gap-16 mx-auto px-4 md:px-6 lg:px-20 mt-8 md:-mt-6'>
           <div className='flex flex-col items-center lg:items-center gap-8 md:gap-16 w-full'>
             <div className='flex flex-col justify-center w-full lg:w-1/2 text-left md:text-center'>
-              <h4 className='text-xl md:text-2xl font-bold mb-6 md:mb-8 relative md:right-[240px]'>Technology Used</h4>
+            <h4 className='text-xl md:text-2xl font-bold mb-6 md:mb-8 relative md:right-[240px]'>Technology Used</h4>
               <div className='md:flex flex-wrap justify-start mt-2 md:mt-0'>
                 {['Next.js', 'Tailwind', 'MongoDB'].map((tech) => (
                   <span key={tech} className='text-gray-700 rounded-md font-medium p-3 text-sm bg-gray-200 m-2'>{tech}</span>

@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Projects = () => {
   return (
     <>
-      <div id='projects' className='bg-[#fefdfd] min-h-screen w-full overflow-x-hidden flex flex-col justify-center gap-8 md:gap-16 lg:gap-32 pb-12'>
+      <div id='projects' className='bg-[#fefdfd] min-h-screen w-full overflow-x-hidden flex flex-col justify-center gap-8 md:gap-16 lg:gap-32 md:pb-16 pb-20'>
         <div className='flex flex-col items-center gap-5 text-center px-4 md:mt-20 mt-[75px]'>
           <h2 className='text-2xl mt-5 md:text-3xl lg:text-4xl font-bold text-black'>PROJECTS</h2>
           <span className='bg-[#7843E9] w-8 h-1.5 rounded-full'></span>
@@ -14,12 +14,12 @@ const Projects = () => {
         </div>
 
         {/* Project Section 1 */}
-        <div className='flex flex-col lg:flex-row w-full md:gap-16 mx-auto px-4 md:px-6 lg:px-20 md:mt-4 mt-10'>
-          <div className='flex flex-col lg:flex-row items-center gap-8 md:gap-12 w-full'>
-            <img src="cheerswithtea.jpg" alt="Project 1 description" className='w-full lg:w-[55%] h-auto object-cover max-w-2xl lg:ml-16' />
-            <div className='flex flex-col justify-center w-full lg:w-1/2 text-center lg:text-left lg:ml-10'>
+        <div className='flex flex-col lg:flex-row w-full md:gap-16 mx-auto px-4 md:px-6 xl:px-20 md:mt-4 mt-10'>
+          <div className='flex flex-col xl:flex-row items-center gap-8 md:gap-12 w-full'>
+            <img src="cheerswithtea.jpg" alt="Project 1 description" className='w-full xl:w-[55%] h-auto object-cover max-w-2xl xl:ml-16' />
+            <div className='flex flex-col justify-center w-full xl:w-1/2 text-center xl:text-left xl:ml-10'>
               <h4 className='text-xl md:text-2xl font-bold'>Cheers with Tea</h4>
-              <p className='text-base md:text-lg mt-5 text-[#666] lg:mr-10'>
+              <p className='text-base md:text-lg mt-5 text-[#666] xl:mr-10'>
                Cheers With Tea is a Full Stack Crowdfunding project. Here, your fans can find and fund you. This platform is mainly for developers, creators and influencers over the world wide.
               </p>
               <Link href="/CheersWithTea" target="_blank">
@@ -35,12 +35,12 @@ const Projects = () => {
 
 
         {/* Project Section 2 */}
-        <div className='flex flex-col lg:flex-row w-full md:gap-16 mx-auto px-4 md:px-6 lg:px-20 mt-16'>
-          <div className='flex flex-col lg:flex-row items-center gap-8 md:gap-12 w-full'>
-            <img src="portfolio.jpg" alt="Project 3 description" className='w-full lg:w-[55%] h-auto object-cover max-w-2xl lg:ml-16' />
-            <div className='flex flex-col justify-center w-full lg:w-1/2 text-center lg:text-left lg:ml-10'>
+        <div className='flex flex-col lg:flex-row w-full md:gap-16 mx-auto px-4 md:px-6 xl:px-20 mt-16'>
+          <div className='flex flex-col xl:flex-row items-center gap-8 md:gap-12 w-full'>
+            <img src="portfolio.jpg" alt="Project 3 description" className='w-full xl:w-[55%] h-auto object-cover max-w-2xl xl:ml-16' />
+            <div className='flex flex-col justify-center w-full xl:w-1/2 text-center xl:text-left xl:ml-10'>
               <h4 className='text-xl md:text-2xl font-bold'>Portfolio Dekho</h4>
-              <p className='text-base md:text-lg mt-5 text-[#666] lg:mr-10'>
+              <p className='text-base md:text-lg mt-5 text-[#666] xl:mr-10'>
               Portfolio Dekho showcases a developer&apos;s work with a modern, engaging design. It highlights projects with optimized performance and a responsive layout, featuring interactive project previews. This platform is perfect for presenting professional achievements effectively.
               </p>
               <Link href="/Portfolio" target="_blank">
@@ -56,12 +56,12 @@ const Projects = () => {
 
 
          {/* Project Section 3 */}
-         <div className='flex flex-col lg:flex-row w-full md:gap-16 mx-auto px-4 md:px-6 lg:px-20 mt-16'>
-          <div className='flex flex-col lg:flex-row items-center gap-8 md:gap-12 w-full'>
-            <img src="passx.jpg" alt="Project 2 description" className='w-full lg:w-[55%] h-auto object-cover max-w-2xl lg:ml-16' />
-            <div className='flex flex-col justify-center w-full lg:w-1/2 text-center lg:text-left lg:ml-10'>
+         <div className='flex flex-col lg:flex-row w-full md:gap-16 mx-auto px-4 md:px-6 xl:px-20 mt-16'>
+          <div className='flex flex-col xl:flex-row items-center gap-8 md:gap-12 w-full'>
+            <img src="passx.jpg" alt="Project 2 description" className='w-full xl:w-[55%] h-auto object-cover max-w-2xl xl:ml-16' />
+            <div className='flex flex-col justify-center w-full xl:w-1/2 text-center xl:text-left xl:ml-10'>
               <h4 className='text-xl md:text-2xl font-bold'>PassX</h4>
-              <p className='text-base md:text-lg mt-5 text-[#666] lg:mr-10'>
+              <p className='text-base md:text-lg mt-5 text-[#666] xl:mr-10'>
               PassX is a secure platform designed for managing and storing passwords efficiently. It provides users with a streamlined way to keep their credentials safe and accessible, ensuring both convenience and security. The user-friendly interface allows for easy navigation and quick access to stored passwords, making it an essential tool for anyone to manage their digital security effectively.
               </p>
               <Link href="/PassX" target="_blank">

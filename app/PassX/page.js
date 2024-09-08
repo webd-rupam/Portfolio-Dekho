@@ -26,7 +26,7 @@ const Page = () => {
             </button>
           </Link>
 
-          <Link href="https://pass-x-password-manager.vercel.app/" target="_blank">
+          <Link href="https://usepassx.vercel.app/" target="_blank">
             <button
               type="button"
               className="relative transition-transform duration-500 ease-in-out transform hover:translate-y-1 mt-4 text-white bg-gradient-to-r from-[#c471ed] to-[#f64f59] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-[#c471ed] font-bold rounded-md text-base md:text-xl px-12 py-3 text-center">

@@ -41,7 +41,7 @@ const Page = () => {
         <div className='flex flex-col w-full md:gap-16 mx-auto px-4 md:px-20 lg:px-14 mt-20'>
           <div className='flex flex-col items-center gap-8 md:gap-16 w-full'>
             <img src="cheerswithtea.jpg" alt="Project 1 description" className='w-full max-w-[800px] h-auto object-cover' />
-            <div className='flex flex-col justify-center w-full lg:w-1/2 text-left lg:ml-10'>
+            <div className='flex flex-col justify-center w-full xl:w-1/2 text-left lg:ml-10'>
               <h4 className='text-xl md:text-2xl font-bold mt-6 md:mt-0'>Project Overview</h4>
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
                 Cheers with Tea, a crowdfunding platform that aims to bring dreams to life! Our platform offers a space for creators to share their projects and connect with supporters.
@@ -53,7 +53,7 @@ const Page = () => {
 
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>Moreover, our responsive design guarantees an optimized experience across all devices, whether you&apos;re using a desktop, tablet, or smartphone.</p>
               
-              <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto relative lg:right-[142px]'>
+              <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto relative lg:right-[145px]'>
                 Please feel free to checkout the project from the Project Link.
               </p>
               

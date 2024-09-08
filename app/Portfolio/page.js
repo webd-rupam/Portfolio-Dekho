@@ -40,7 +40,7 @@ const Page = () => {
         <div className='flex flex-col w-full md:gap-16 mx-auto px-4 md:px-20 lg:px-14 mt-20'>
           <div className='flex flex-col items-center gap-8 md:gap-16 w-full'>
             <img src="portfolio.jpg" alt="Screenshot of the portfolio website" className='w-full max-w-[800px] h-auto object-cover' />
-            <div className='flex flex-col justify-center w-full lg:w-1/2 text-left lg:ml-10'>
+            <div className='flex flex-col justify-center w-full xl:w-1/2 text-left lg:ml-10'>
               <h4 className='text-xl md:text-2xl font-bold mt-6 md:mt-0'>Project Overview</h4>
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
                 The portfolio website is designed to effectively showcase a developer&apos;s professional work in a modern and visually appealing manner. It is built using Next.js and Tailwind CSS, showcasing a modern, dynamic, and visually appealing design. Next.js enhances the website&apos;s performance by offering features like server-side rendering and static site generation, which contribute to faster load times and improved SEO. Tailwind CSS is utilized for styling, allowing for a clean, responsive layout that adapts seamlessly to various devices, ensuring an optimal user experience across smartphones, tablets, and desktops.
@@ -54,7 +54,7 @@ const Page = () => {
                 Additionally, the website includes dynamic project previews, providing an interactive and engaging way for visitors to explore the showcased work. These previews are powered by Next.js, which allows for efficient loading and smooth transitions, enhancing the overall user experience. The combination of Next.js and Tailwind CSS results in a portfolio that is not only aesthetically pleasing but also highly functional, making it a perfect platform for presenting professional work.
               </p>
 
-              <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
+              <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto relative md:right-[145px]'>
                 Please feel free to checkout the project from the Project Link.
               </p>
             </div>

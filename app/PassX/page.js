@@ -50,7 +50,7 @@ const Page = () => {
         <div className='flex flex-col w-full md:gap-16 mx-auto px-4 md:px-20 lg:px-14 mt-20'>
           <div className='flex flex-col items-center gap-8 md:gap-16 w-full'>
             <img src="passx.jpg" alt="Project 1 description" className='w-full max-w-[800px] h-auto object-cover' />
-            <div className='flex flex-col justify-center w-full lg:w-1/2 text-left lg:ml-10'>
+            <div className='flex flex-col justify-center w-full xl:w-1/2 text-left lg:ml-10'>
               <h4 className='text-xl md:text-2xl font-bold mt-6 md:mt-0'>Project Overview</h4>
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
                 PassX is a sleek and functional password management application that allows users to store, manage, and retrieve their passwords securely. The application provides essential features like password visibility toggling, editing, and deleting saved passwords, ensuring users have full control over their stored information. Additionally, users can easily copy their passwords to the clipboard with a single click, streamlining the process of accessing their credentials.
@@ -64,7 +64,7 @@ const Page = () => {
                 Visually, PassX is designed with a clean, modern interface that utilizes a responsive layout and attractive styling. The application&apos;s design includes elements like a gradient background, rounded input fields, and a consistent color scheme, all of which enhance the overall user experience. This combination of functionality and design highlights the developer&apos;s ability to create web applications that are both secure and visually appealing.
               </p>
 
-              <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
+              <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto relative'>
                 Please feel free to checkout the project from the Project Link, or use it following the site link.
               </p>
               

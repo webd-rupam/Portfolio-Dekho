@@ -44,14 +44,14 @@ const Me = () => {
           <span className="typewriter-cursor"></span>
         </div>
 
-        <p className='mt-10 text-lg md:text-xl lg:text-xl text-gray-200 md:px-10'>
+        <p className='mt-9 text-lg md:text-xl lg:text-xl text-gray-200 md:px-10'>
           A result-oriented web developer specializing in building and managing impactful websites and applications.
         </p>
 
         <Link href={"#projects"}>
         <button
     type="button"
-    className="relative transition-transform duration-500 ease-in-out transform hover:translate-y-1 mt-12 md:mt-16 text-white bg-gradient-to-r from-[#6adf68] to-[#117495] focus:ring-4 focus:outline-none focus:ring-[#00e0c2] font-semibold rounded-lg text-base md:text-lg px-8 md:px-12 lg:px-16 py-3 md:py-4 text-center shadow-lg"
+    className="relative transition-transform duration-500 ease-in-out transform hover:translate-y-1 mt-14 md:mt-16 text-white bg-gradient-to-r from-[#6adf68] to-[#117495] focus:ring-4 focus:outline-none focus:ring-[#00e0c2] font-semibold rounded-lg text-base md:text-lg px-8 md:px-12 lg:px-16 py-3 md:py-4 text-center shadow-lg"
   >
     VIEW PROJECTS
   </button>

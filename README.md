@@ -1,3 +1,10 @@
+Portfolio Dekho showcases a developer's work with a modern, engaging design. It highlights projects with optimized performance and a responsive layout, featuring interactive project previews. This platform is perfect for presenting professional achievements effectively.
+
+Tech used: Next.js, Tailwind.
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

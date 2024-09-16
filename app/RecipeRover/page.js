@@ -6,19 +6,19 @@ const Page = () => {
   return (
     <>
       <Navbar />
-      <div className="relative inset-0 min-h-[92vh] md:min-h-[90vh] w-full flex items-center justify-center bg-gradient-to-r from-[#23233c] via-[#10172c] to-[#406fa8]">
+      <div className="relative inset-0 min-h-[92vh] md:min-h-[90vh] w-full flex items-center justify-center bg-gradient-to-r from-[#352142] via-[#472860] to-[#3ec2d4]">
         
         {/* Text Content */}
         <div className="text-center max-w-7xl mx-auto px-2 flex flex-col justify-center h-full relative">
           <div className="text-2xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-white whitespace-normal">
-            PASS-X
+            RECIPE-ROVER
           </div>
 
-          <p className='mt-8 md:mt-12 text-lg lg:text-xl text-[#a6a6a6] md:px-10 max-w-5xl mx-auto'>
-            This page contains the case study of &apos;PassX&apos; Open-Source Project which includes the Project Overview, Tools Used, and Live Links to the official product.
+          <p className='mt-8 md:mt-12 text-lg lg:text-xl text-[#c5c3c3] md:px-10 max-w-5xl mx-auto'>
+            This page contains the case study of &apos;RecipeRover&apos; Open-Source Project which includes the Project Overview, Tools Used, and Live Links to the official product.
           </p>
 
-          <Link href="https://github.com/webd-rupam/PassX-PasswordManager" target="_blank">
+          <Link href="https://github.com/webd-rupam/RecipeRover-RecipeFinder" target="_blank">
             <button
               type="button"
               className="relative transition-transform duration-500 ease-in-out transform hover:translate-y-1 mt-14 text-white bg-gradient-to-r from-[#ff5e62] to-[#ff9966] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-[#ff5e62] font-bold rounded-md text-base md:text-xl px-12 py-3 text-center">
@@ -26,7 +26,7 @@ const Page = () => {
             </button>
           </Link>
 
-          <Link href="https://usepassx.vercel.app/" target="_blank">
+          <Link href="https://findreciperover.vercel.app" target="_blank">
             <button
               type="button"
               className="relative transition-transform duration-500 ease-in-out transform hover:translate-y-1 mt-4 text-white bg-gradient-to-r from-[#c471ed] to-[#f64f59] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-[#c471ed] font-bold rounded-md text-base md:text-xl px-12 py-3 text-center">
@@ -49,19 +49,19 @@ const Page = () => {
         {/* Project Section 1 */}
         <div className='flex flex-col w-full md:gap-16 mx-auto px-4 md:px-20 lg:px-14 mt-20'>
           <div className='flex flex-col items-center gap-8 md:gap-16 w-full'>
-            <img src="passx.jpg" alt="Project 1 description" className='w-full max-w-[800px] h-auto object-cover' />
+            <img src="reciperover.jpg" alt="Project 1 description" className='w-full max-w-[800px] h-auto object-cover' />
             <div className='flex flex-col justify-center w-full xl:w-1/2 text-left lg:ml-10'>
               <h4 className='text-xl md:text-2xl font-bold mt-6 md:mt-0'>Project Overview</h4>
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
-                PassX is a sleek and functional password management application that allows users to store, manage, and retrieve their passwords securely. The application provides essential features like password visibility toggling, editing, and deleting saved passwords, ensuring users have full control over their stored information. Additionally, users can easily copy their passwords to the clipboard with a single click, streamlining the process of accessing their credentials.
+              RecipeRover is a dynamic web application designed to help users discover recipes based on the ingredients they have at home. By leveraging a third-party API, RecipeRover allows users to input their available ingredients and instantly receive a curated list of recipes that they can easily prepare. This integration ensures that users have access to a wide variety of recipes and culinary ideas, making meal planning both efficient and enjoyable.
               </p>
               
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
-                The app leverages state management to handle user inputs and manage a dynamic list of saved passwords, which are securely stored in the browser&apos;s local storage. This ensures that users&apos; data is preserved across sessions, providing a seamless experience even after a page refresh. This feature is particularly valuable as it offers convenience without compromising on security, allowing users to maintain their password list without worrying about losing data when closing the browser.
+              The primary feature of RecipeRover is its powerful search functionality, which allows users to input a list of ingredients and find recipes that match their query. The site leverages a modern front-end stack to deliver real-time search results, making it an efficient tool for meal planning and culinary exploration. The clean and user-friendly interface ensures that the process of finding recipes is both enjoyable and straightforward.
               </p>
               
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto'>
-                Visually, PassX is designed with a clean, modern interface that utilizes a responsive layout and attractive styling. The application&apos;s design includes elements like a gradient background, rounded input fields, and a consistent color scheme, all of which enhance the overall user experience. This combination of functionality and design highlights the developer&apos;s ability to create web applications that are both secure and visually appealing.
+              Built as a front-end project, RecipeRover showcases advanced web development skills, focusing on user interaction and design. The application highlights the ability to create a seamless user experience through effective design and responsive layout, emphasizing the importance of a well-crafted front-end in modern web development.
               </p>
 
               <p className='text-base md:text-lg mt-7 text-[#666] lg:mr-10 max-w-6xl mx-auto relative'>
@@ -78,7 +78,7 @@ const Page = () => {
             <div className='flex flex-col justify-center w-full lg:w-1/2 text-left md:text-center'>
               <h4 className='text-xl md:text-2xl font-bold mb-6 md:mb-8 relative md:right-[240px]'>Technology Used</h4>
               <div className='md:flex flex-wrap justify-start mt-2 md:mt-0'>
-                {['React.js', 'Tailwind'].map((tech) => (
+                {['Next.js', 'Tailwind'].map((tech) => (
                   <span key={tech} className='text-gray-700 rounded-md font-medium p-3 text-sm bg-gray-200 m-2'>{tech}</span>
                 ))}
               </div>
@@ -105,6 +105,6 @@ export default Page;
 
 export async function generateMetadata({ params }) {
   return {
-    title: "PassX - My project 3",
+    title: "RecipeRover - My project 4",
   }
 }

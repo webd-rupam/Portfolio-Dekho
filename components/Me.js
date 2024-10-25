@@ -45,7 +45,7 @@ const Me = () => {
         <div className="text-2xl md:text-4xl lg:text-5xl font-extrabold text-white leading-tight">
           <span className='text-orange-500'>HI,</span>
         <Typewriter
-                words={[' IM RUPAM MAJEE']}
+                words={[" I'M RUPAM MAJEE"]}
                 cursor
                 cursorStyle=""
                 typeSpeed={80}

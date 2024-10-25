@@ -15,7 +15,7 @@ const Navbar = () => {
 
   const closeDropdown = () => {
     setisDropdown(false);
-    ref.current.src = "hamburger.png";
+    ref.current.src = "hambruger.png";
   }
 
   const iconStyle = {

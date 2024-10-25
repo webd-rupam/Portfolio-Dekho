@@ -1,5 +1,8 @@
+"use client"
+
 import React from 'react';
 import Link from 'next/link';
+import { Typewriter } from 'react-simple-typewriter';
 
 const Me = () => {
   return (
@@ -39,13 +42,22 @@ const Me = () => {
 
       {/* Text Content */}
       <div className="text-center max-w-7xl mx-auto md:px-8 lg:px-40 px-4 flex flex-col justify-center h-full relative">
-        <div className="text-2xl md:text-4xl lg:text-5xl font-extrabold text-white leading-tight typewriter">
-          HI, I&apos;M RUPAM MAJEE
-          <span className="typewriter-cursor"></span>
+        <div className="text-2xl md:text-4xl lg:text-5xl font-extrabold text-white leading-tight">
+          <span className='text-orange-500'>HI,</span>
+        <Typewriter
+                words={[' IM RUPAM MAJEE']}
+                cursor
+                cursorStyle=""
+                typeSpeed={80}
+                deleteSpeed={50}
+                delaySpeed={2000}
+                
+              />
+          
         </div>
 
         <p className='mt-9 text-lg md:text-xl lg:text-xl text-gray-200 md:px-10'>
-          A result-oriented web developer specializing in building and managing impactful websites and applications.
+          A result-oriented web developer specializing in building and managing impactful websites and web-solutions.
         </p>
 
         <Link href={"#projects"}>

@@ -105,6 +105,6 @@ export default Page;
 
 export async function generateMetadata({ params }) {
   return {
-    title: "Randomly - My project 5",
+    title: "Randomly - Chat with Strangers",
   }
 }

@@ -94,6 +94,6 @@ export default Page;
 
 export async function generateMetadata({ params }) {
   return {
-    title: "Portfolio Dekho - My project 2",
+    title: "Portfolio Dekho - Personal Showcase",
   }
 }

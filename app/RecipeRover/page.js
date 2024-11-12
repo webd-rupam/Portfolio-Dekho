@@ -105,6 +105,6 @@ export default Page;
 
 export async function generateMetadata({ params }) {
   return {
-    title: "RecipeRover - My project 4",
+    title: "RecipeRover - Make recipes with what what you have",
   }
 }

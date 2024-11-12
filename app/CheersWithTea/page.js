@@ -93,6 +93,6 @@ export default Page;
 
 export async function generateMetadata({ params }) {
   return {
-    title: "Cheers With Tea - My Project 1",
+    title: "Cheers With Tea - Enjoy Crowfunding",
   }
 }

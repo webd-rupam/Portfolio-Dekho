@@ -56,6 +56,7 @@ const About = () => {
               <span className='text-[#666] rounded-md font-medium p-3 text-sm bg-gray-200 m-2'>Express.js</span>
               <span className='text-[#666] rounded-md font-medium p-3 text-sm bg-gray-200 m-2'>Node.js</span>
               <span className='text-[#666] rounded-md font-medium p-3 text-sm bg-gray-200 m-2'>MongoDB</span>
+              <span className='text-[#666] rounded-md font-medium p-3 text-sm bg-gray-200 m-2'>Firebase</span>
               <span className='text-[#666] rounded-md font-medium p-3 text-sm bg-gray-200 m-2'>GIT</span>
               <span className='text-[#666] rounded-md font-medium p-3 text-sm bg-gray-200 m-2'>Github</span>
               <span className='text-[#666] rounded-md font-medium p-3 text-sm bg-gray-200 m-2'>Postman</span>

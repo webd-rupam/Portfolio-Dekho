@@ -77,8 +77,8 @@ const Page = () => {
           <div className='flex flex-col items-center lg:items-center gap-8 md:gap-16 w-full'>
             <div className='flex flex-col justify-center w-full lg:w-1/2 text-left md:text-center'>
               <h4 className='text-xl md:text-2xl font-bold mb-6 md:mb-8 relative md:right-[240px]'>Technology Used</h4>
-              <div className='md:flex flex-wrap justify-start mt-2 md:mt-0'>
-                {['Next.js', 'Tailwind', 'Recharts', 'Firebase'].map((tech) => (
+              <div className='flex flex-wrap justify-start mt-2 md:mt-0'>
+                {['Next.js', 'Tailwind', 'Recharts', 'Firebase', 'GSAP'].map((tech) => (
                   <span key={tech} className='text-gray-700 rounded-md font-medium p-2 text-sm bg-gray-200 m-[5px]'>{tech}</span>
                 ))}
               </div>

@@ -13,6 +13,26 @@ const Projects = () => {
           </p>
         </div>
 
+        {/* Project Section 8 */}
+<div className='flex flex-col lg:flex-row w-full md:gap-16 mx-auto px-4 md:px-6 xl:px-20 md:mt-4 mt-10'>
+          <div className='flex flex-col xl:flex-row items-center gap-8 md:gap-12 w-full'>
+            <img src="betalkative.jpg" alt="Project 1 description" className='w-full xl:w-[55%] h-auto object-cover max-w-2xl xl:ml-16' />
+            <div className='flex flex-col justify-center w-full xl:w-1/2 text-center xl:text-left xl:ml-10'>
+              <h4 className='text-xl md:text-2xl font-bold'>BeTalkative</h4>
+              <p className='text-base md:text-lg mt-5 text-[#666] xl:mr-10'>
+              BeTalkative is a full-featured real-time chat application built with modern web technologies. It offers a seamless messaging experience with features like group chats, user profiles, moderation tools, and rich message interactions.
+              </p>
+              <Link href="/BeTalkative" target="_blank">
+                <button
+                  type="button"
+                  className="relative transition-transform duration-500 ease-in-out transform hover:translate-y-1 text-white bg-[#7843E9] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-md text-base md:text-lg px-4 md:px-6 lg:px-8 py-2 md:py-3 text-center mt-8">
+                  MORE INFO
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
 {/* Project Section 7 */}
 <div className='flex flex-col lg:flex-row w-full md:gap-16 mx-auto px-4 md:px-6 xl:px-20 md:mt-4 mt-10'>
           <div className='flex flex-col xl:flex-row items-center gap-8 md:gap-12 w-full'>

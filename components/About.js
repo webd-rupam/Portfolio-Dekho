@@ -61,6 +61,7 @@ const About = () => {
               <span className='text-[#666] rounded-md font-medium p-3 text-sm bg-gray-200 m-2'>GIT</span>
               <span className='text-[#666] rounded-md font-medium p-3 text-sm bg-gray-200 m-2'>Github</span>
               <span className='text-[#666] rounded-md font-medium p-3 text-sm bg-gray-200 m-2'>Postman</span>
+              <span className='text-[#666] rounded-md font-medium p-3 text-sm bg-gray-200 m-2'>Socket.io</span>
             </div>
           </div>
         </div>
